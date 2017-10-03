@@ -1,0 +1,10 @@
+ID00001, Bill Skarsgard, Jakarta, Male, 25, true, 08131234567, PNS, 3000000.00, 2
+ID00002, Jaeden Lieberher, Jakarta, Male, 25, false, 08131234568, Wiraswasta, 4000000.00, 1
+ID00003, Dylan O'Brien, Bandung, Male, 22, false, 0813154568, Wiraswasta, 2000000.00, 2
+ID00004, Shiva Negar, Jakarta, Female, 25, false, 08131211568, BUMN, 6000000.00, 1
+ID00005, Colin Firth, Bogor, Male, 30, true, 08131212568, Wiraswasta, 4000000.00, 0
+ID00006, Julianne Moore, Surabaya, Female, 19, false, 0812234568, PNS, 3000000.00, 3
+ID00007, Elton John, Jakarta, Male, 22, false, 08131234568, PNS, 4000000.00, 2
+ID00008, Channing Tatum, Bandung, Male, 32, true, 08131236668, BUMN, 5000000.00, 1
+ID00009, Katie Leung, Bandung, Female, 28, true, 0812234568, Wiraswasta, 4500000.00, 0
+ID00010, Charlie Murphy, Jakarta, Male, 42, true, 0813112268, PNS, 3500000.00, 1

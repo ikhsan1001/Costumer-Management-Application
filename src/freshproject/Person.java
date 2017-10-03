@@ -20,6 +20,7 @@ public class Person {
     private String nohp;
     private String pekerjaan;
     private double penghasilan;
+    private int jumlahTanggungan;
 //    private String gender;
 //    private Boolean merried;
 //    private int umur;
@@ -32,7 +33,7 @@ public class Person {
         this.nama = nama;
     }
 
-    public Person(String idnasabah, String nama, String alamat, String gender, int umur, Boolean merried, String nohp, String pekerjaan, double penghasilan) {
+    public Person(String idnasabah, String nama, String alamat, String gender, int umur, Boolean merried, String nohp, String pekerjaan, double penghasilan, int jumlahTanggungan) {
         this.idnasabah = idnasabah;
         this.nama = nama;
         this.alamat = alamat;
@@ -42,6 +43,16 @@ public class Person {
         this.nohp = nohp;
         this.pekerjaan = pekerjaan;
         this.penghasilan = penghasilan;
+        this.jumlahTanggungan = jumlahTanggungan;
+    }
+    
+    public Person(double penghasilan, int jumlahTanggungan) {
+        this.penghasilan = penghasilan;
+        this.jumlahTanggungan = jumlahTanggungan;
+    }
+
+    public double limitPinjaman() {
+        return penghasilan / (jumlahTanggungan + 1);
     }
 
     /**
@@ -168,6 +179,20 @@ public class Person {
      */
     public void setPenghasilan(double penghasilan) {
         this.penghasilan = penghasilan;
+    }
+
+    /**
+     * @return the jumlahTanggungan
+     */
+    public int getJumlahTanggungan() {
+        return jumlahTanggungan;
+    }
+
+    /**
+     * @param jumlahTanggungan the jumlahTanggungan to set
+     */
+    public void setJumlahTanggungan(int jumlahTanggungan) {
+        this.jumlahTanggungan = jumlahTanggungan;
     }
 
 }
